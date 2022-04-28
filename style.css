@@ -1,0 +1,136 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    font-size: 15pt;
+    font-family: 'Poppins', sans-serif;
+}
+h2{
+  color: #FFDE00;
+  font-family: 'Bungee Shade', cursive;
+  position: relative;
+  font-size: 30px;
+}
+h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #909090;
+  bottom: -5px;
+  left: calc(50% - 60px);
+}
+ h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  bottom:-6px;
+  width: 40px;
+  height: 3px;
+  background: #FFDE00;
+  left: calc(50% - 20px);
+}
+#heading{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #FFFFFF;
+  font-size: 20px;
+  background: linear-gradient(to bottom,#00000080,#00000080),url("https://images.unsplash.com/photo-1605076896228-086cda8868c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGhvdG9ncmFwaHklMjBjYW1lcmF8ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60");
+  background-size: cover;
+  background-color: #42445AB8;
+  font-family: 'Poppins', sans-serif;
+}
+#name{
+  color: #FFDE00;
+  font-size: 60px;
+  font-family: groov;
+}
+#heading .social-media img{
+  width: 8%;
+  margin-right: 10px;
+}
+a{
+  color: #FFFFFF;
+}
+a:hover{
+  color: #929292;
+}
+
+.forward i{
+  position: fixed;
+  top: 95%;
+  width: 30px;
+  left: 80%;
+  
+  
+}
+#socialIcons i{
+  font-size: 20px;
+  margin-right: 15px;
+}
+#fs{
+  line-height: 25px;
+}
+
+#about{
+  height: 100vh;
+  background: linear-gradient(to bottom,#000000,#DBDBDBA6) ,url("Rock.png");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.aboutCard{
+  text-align: left;
+  padding-left: 40px;
+}
+.aboutCard  h3{
+  font-size: 25px;
+  margin-top: 10px;
+ 
+}
+
+h6{
+  color:#4A4A4A;
+}
+
+/*typed js container*/
+#animatedText{
+  height: 20px;
+  font-size: 15px;
+  color: #C5C6C9;
+  margin-top: 0;
+  padding-top: 0;
+}
+#animation{
+  color: #FFDE00;
+}
+
+
+/*typed js cursor*/
+.typed-cursor{
+ display: none;
+}
+
+
+/**
+
+
+
+
+
+/* font facfont faces*/
+@font-face {
+  font-family: groov;
+  src: url("fonts/Groove.ttf");
+}
